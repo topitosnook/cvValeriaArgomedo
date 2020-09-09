@@ -6,8 +6,10 @@ body {
   
   /* Header/Blog Title */
   .header {
-    padding: 30px;
-    font-size: 40px;
+
+    float: left;
+    width: 100%;
+  }
     
     background: #2471A3;
   }
@@ -75,14 +77,14 @@ body {
     color: #EAF2F8;
     font-family: "Times New Roman";
     font-size: 18px;
-    text-align: justify;
+    text-align: right;
   }
   /*Parrafos*/
   p {
     color: #EBF5FB;
     font-family: "Times New Roman";
     font-size: 18px;
-    text-align: justify;
+    text-align: right;
   }
 
   /* Create two unequal columns that floats next to each other */
