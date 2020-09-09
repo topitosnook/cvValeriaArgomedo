@@ -1,0 +1,115 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #154360;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    
+    background: #2471A3;
+  }
+/* Efecto de separacion en las entradas */
+   .card {
+       background-color: #5499C7;
+       padding: 20px;
+       margin-top: 20px;
+      }
+      
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #5499C7;
+    margin-top: 20px;
+  }
+
+/* Titulos 
+ padding: 20px 0; Espacio entre lineas (vertical) */
+  h1 {
+    margin: 0;
+   
+    color: #EAF2F8;
+    font-family: "Times New Roman";
+    text-align: center;
+ }
+  h2 {
+    margin: 0;
+    color: #EAF2F8;
+    font-family: "Times New Roman";
+    text-align: center;
+ }
+ h3 {
+    margin: 0;
+    color: #EAF2F8;
+    font-family: "Times New Roman";
+    text-align: center;
+  }
+  h4 {
+    margin: 0;
+    color: #EAF2F8;
+    font-family: "Times New Roman";
+    text-align: center;
+  }
+  h5 {
+    margin: 0;
+    color: #EAF2F8;
+    font-family: "Times New Roman";
+    text-align: center;
+  }
+  h6{
+    margin: 0;
+    color: #EAF2F8;
+    font-family: "Times New Roman";
+    text-align: center;
+  }
+  /*Listas */
+  ul{
+    color: #EAF2F8;
+    font-family: "Times New Roman";
+    font-size: 18px;
+  }
+  dl{
+    color: #EAF2F8;
+    font-family: "Times New Roman";
+    font-size: 18px;
+    text-align: justify;
+  }
+  /*Parrafos*/
+  p {
+    color: #EBF5FB;
+    font-family: "Times New Roman";
+    font-size: 18px;
+    text-align: justify;
+  }
+
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {
+    float: left;
+    width: 100%;
+  }
+  
+  /* Right column 
+  .rightcolumn {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+  } */
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }
+
